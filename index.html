@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shah Zaman — Java Developer, AWS Engineer & Backend Specialist based in Karachi, Pakistan." />
+  <title>Shah Zaman — Java Developer & AWS Engineer</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@400;500;700;800;900&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Loader ── -->
+  <div id="loader">
+    <div class="loader-name">SZ.</div>
+    <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+    <div class="loader-text">Loading Portfolio</div>
+  </div>
+
+  <!-- ── Cursor ── -->
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- ── Background ── -->
+  <div class="grid-bg"></div>
+  <div class="orb orb-green"></div>
+  <div class="orb orb-blue"></div>
+  <div class="orb orb-red"></div>
+
+  <!-- ════════════════════════════════════════
+       NAVBAR
+  ════════════════════════════════════════ -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">Shah Zaman</a>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+    </ul>
+
+    <div class="nav-toggle" id="nav-toggle">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-inner">
+
+        <!-- Left -->
+        <div class="hero-left">
+          <div class="hero-eyebrow">
+            <span class="dot"></span>
+            Available for Opportunities
+          </div>
+
+          <h1 class="hero-name">
+            Shah<br>
+            <span class="accent">Zaman</span>
+            <span class="dim">— Karachi, PK</span>
+          </h1>
+
+          <p class="hero-role">
+            <strong><span id="typed-role">Java Developer</span></strong>
+            &nbsp;·&nbsp; AWS &nbsp;·&nbsp; Spring Boot &nbsp;·&nbsp; REST APIs
+          </p>
+
+          <p class="hero-desc">
+            BSIT Graduate from Sindh Agriculture University. I build robust,
+            scalable backend systems using <strong>Java & Spring Boot</strong>,
+            deploy on <strong>AWS Cloud</strong>, and craft clean frontends
+            with HTML, CSS, Bootstrap & JavaScript.
+          </p>
+
+          <div class="hero-btns">
+            <a href="#projects" class="btn btn-green">View Projects</a>
+            <a href="#contact"  class="btn btn-outline">Hire Me →</a>
+            <a href="https://github.com/engrshahzaman09" target="_blank" class="btn btn-outline">GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- Right Card -->
+        <div class="hero-card">
+          <div class="hc-avatar">SZ</div>
+          <div class="hc-name">Shah Zaman</div>
+          <div class="hc-sub">engrshahzaman09@gmail.com</div>
+
+          <div class="hc-stats">
+            <div class="hc-stat">
+              <div class="hc-stat-val" data-target="4" data-suffix="+">0+</div>
+              <div class="hc-stat-key">Projects</div>
+            </div>
+            <div class="hc-stat">
+              <div class="hc-stat-val" data-target="5" data-suffix="+">0+</div>
+              <div class="hc-stat-key">Technologies</div>
+            </div>
+            <div class="hc-stat">
+              <div class="hc-stat-val">AWS</div>
+              <div class="hc-stat-key">Cloud</div>
+            </div>
+            <div class="hc-stat">
+              <div class="hc-stat-val">BSIT</div>
+              <div class="hc-stat-key">Degree</div>
+            </div>
+          </div>
+
+          <div class="hc-chips">
+            <span class="chip">Java</span>
+            <span class="chip">Spring Boot</span>
+            <span class="chip">AWS</span>
+            <span class="chip">MySQL</span>
+            <span class="chip">REST API</span>
+            <span class="chip">JavaScript</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       ABOUT
+  ════════════════════════════════════════ -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+
+        <div class="about-text reveal">
+          <div class="section-label">Who I Am</div>
+          <h2 class="section-title">About <em>Me</em></h2>
+
+          <p>
+            I'm <strong>Shah Zaman</strong>, a passionate <strong>Java Backend Developer</strong>
+            and <strong>AWS Cloud Engineer</strong> based in Karachi, Pakistan. I recently
+            graduated with a <strong>Bachelor of Science in Information Technology</strong>
+            from Sindh Agriculture University.
+          </p>
+          <p>
+            My core expertise lies in building <strong>RESTful APIs</strong> using
+            <strong>Spring Boot</strong>, managing relational databases with <strong>MySQL</strong>,
+            and deploying production-ready applications on <strong>Amazon Web Services (AWS)</strong>.
+            I also build polished frontends using <strong>HTML, CSS, Bootstrap & JavaScript</strong>.
+          </p>
+          <p>
+            I'm actively looking for opportunities where I can contribute to real-world
+            products and grow as an engineer. Whether it's a full-time role, freelance
+            project, or collaboration — I'm open to it all.
+          </p>
+
+          <ul class="about-contact-list">
+            <li>
+              <span class="ico">📧</span>
+              <span><div style="font-size:11px;color:var(--text-mute);letter-spacing:1px;margin-bottom:2px;">EMAIL</div>
+              <a href="mailto:engrshahzaman09@gmail.com">engrshahzaman09@gmail.com</a></span>
+            </li>
+            <li>
+              <span class="ico">📱</span>
+              <span><div style="font-size:11px;color:var(--text-mute);letter-spacing:1px;margin-bottom:2px;">WHATSAPP</div>
+              <a href="https://wa.me/923494595501" target="_blank">+92 349 4595501</a></span>
+            </li>
+            <li>
+              <span class="ico">🐙</span>
+              <span><div style="font-size:11px;color:var(--text-mute);letter-spacing:1px;margin-bottom:2px;">GITHUB</div>
+              <a href="https://github.com/engrshahzaman09" target="_blank">github.com/engrshahzaman09</a></span>
+            </li>
+            <li>
+              <span class="ico">📍</span>
+              <span><div style="font-size:11px;color:var(--text-mute);letter-spacing:1px;margin-bottom:2px;">LOCATION</div>
+              Karachi, Pakistan</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Tech Stack Visual -->
+        <div class="reveal" style="transition-delay:0.15s">
+          <div class="tech-stack-box">
+            <div class="tsb-title">// Tech Stack</div>
+            <div class="tech-grid">
+              <div class="tech-item">
+                <div class="ti-icon">☕</div>
+                <div class="ti-name">Java</div>
+              </div>
+              <div class="tech-item">
+                <div class="ti-icon">🍃</div>
+                <div class="ti-name">Spring Boot</div>
+              </div>
+              <div class="tech-item">
+                <div class="ti-icon">☁️</div>
+                <div class="ti-name">AWS</div>
+              </div>
+              <div class="tech-item">
+                <div class="ti-icon">🐬</div>
+                <div class="ti-name">MySQL</div>
+              </div>
+              <div class="tech-item">
+                <div class="ti-icon">🌐</div>
+                <div class="ti-name">HTML/CSS</div>
+              </div>
+              <div class="tech-item">
+                <div class="ti-icon">🅱️</div>
+                <div class="ti-name">Bootstrap</div>
+              </div>
+              <div class="tech-item">
+                <div class="ti-icon">⚡</div>
+                <div class="ti-name">JavaScript</div>
+              </div>
+              <div class="tech-item">
+                <div class="ti-icon">🔗</div>
+                <div class="ti-name">REST API</div>
+              </div>
+              <div class="tech-item">
+                <div class="ti-icon">🐧</div>
+                <div class="ti-name">Ubuntu</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       SKILLS
+  ════════════════════════════════════════ -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label reveal">Expertise</div>
+      <h2 class="section-title reveal">Skills &amp; <em>Technologies</em></h2>
+
+      <div class="skills-layout">
+
+        <div class="skill-block reveal">
+          <div class="sb-icon">☕</div>
+          <div class="sb-name">Java</div>
+          <div class="sb-level">Expert</div>
+          <div class="sb-bar"><div class="sb-fill" data-width="92%"></div></div>
+        </div>
+
+        <div class="skill-block reveal" style="transition-delay:0.08s">
+          <div class="sb-icon">🍃</div>
+          <div class="sb-name">Spring Boot</div>
+          <div class="sb-level">Advanced</div>
+          <div class="sb-bar"><div class="sb-fill" data-width="88%"></div></div>
+        </div>
+
+        <div class="skill-block reveal" style="transition-delay:0.16s">
+          <div class="sb-icon">☁️</div>
+          <div class="sb-name">AWS Cloud</div>
+          <div class="sb-level">Advanced</div>
+          <div class="sb-bar"><div class="sb-fill" data-width="82%"></div></div>
+        </div>
+
+        <div class="skill-block reveal" style="transition-delay:0.24s">
+          <div class="sb-icon">🐬</div>
+          <div class="sb-name">MySQL</div>
+          <div class="sb-level">Advanced</div>
+          <div class="sb-bar"><div class="sb-fill" data-width="85%"></div></div>
+        </div>
+
+        <div class="skill-block reveal" style="transition-delay:0.32s">
+          <div class="sb-icon">🔗</div>
+          <div class="sb-name">REST APIs</div>
+          <div class="sb-level">Expert</div>
+          <div class="sb-bar"><div class="sb-fill" data-width="90%"></div></div>
+        </div>
+
+        <div class="skill-block reveal" style="transition-delay:0.4s">
+          <div class="sb-icon">🌐</div>
+          <div class="sb-name">HTML · CSS · Bootstrap</div>
+          <div class="sb-level">Advanced</div>
+          <div class="sb-bar"><div class="sb-fill" data-width="80%"></div></div>
+        </div>
+
+        <div class="skill-block reveal" style="transition-delay:0.48s">
+          <div class="sb-icon">⚡</div>
+          <div class="sb-name">JavaScript</div>
+          <div class="sb-level">Intermediate</div>
+          <div class="sb-bar"><div class="sb-fill" data-width="72%"></div></div>
+        </div>
+
+        <div class="skill-block reveal" style="transition-delay:0.56s">
+          <div class="sb-icon">🐧</div>
+          <div class="sb-name">Ubuntu / Linux</div>
+          <div class="sb-level">Intermediate</div>
+          <div class="sb-bar"><div class="sb-fill" data-width="75%"></div></div>
+        </div>
+
+        <div class="skill-block reveal" style="transition-delay:0.64s">
+          <div class="sb-icon">🐙</div>
+          <div class="sb-name">Git & GitHub</div>
+          <div class="sb-level">Advanced</div>
+          <div class="sb-bar"><div class="sb-fill" data-width="83%"></div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       PROJECTS
+  ════════════════════════════════════════ -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label reveal">What I Built</div>
+      <h2 class="section-title reveal">Featured <em>Projects</em></h2>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card reveal">
+          <div class="pc-num">01</div>
+          <div class="pc-title">Student Management System</div>
+          <div class="pc-desc">
+            A full-featured REST API built with <strong>Spring Boot</strong> and
+            <strong>MySQL</strong> for managing student records. Supports complete
+            CRUD operations — Create, Read, Update, Delete — with clean endpoint
+            design and proper HTTP status handling. Ideal for educational institutions.
+          </div>
+          <div class="pc-tags">
+            <span class="pc-tag">Java</span>
+            <span class="pc-tag">Spring Boot</span>
+            <span class="pc-tag">MySQL</span>
+            <span class="pc-tag">REST API</span>
+            <span class="pc-tag">CRUD</span>
+          </div>
+          <a href="https://github.com/engrshahzaman09/StudentManagementSystem" target="_blank" class="pc-link">
+            View on GitHub
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal" style="transition-delay:0.12s">
+          <div class="pc-num">02</div>
+          <div class="pc-title">Product Inventory API</div>
+          <div class="pc-desc">
+            A robust <strong>Product Inventory REST API</strong> built using
+            <strong>Spring Boot</strong> and <strong>MySQL</strong>. Handles
+            product listings, stock tracking, and inventory management with full
+            CRUD support. Designed for e-commerce and warehouse systems.
+          </div>
+          <div class="pc-tags">
+            <span class="pc-tag">Java</span>
+            <span class="pc-tag">Spring Boot</span>
+            <span class="pc-tag">MySQL</span>
+            <span class="pc-tag">REST API</span>
+            <span class="pc-tag">Inventory</span>
+          </div>
+          <a href="https://github.com/engrshahzaman09/ProductInventoryAPI" target="_blank" class="pc-link">
+            View on GitHub
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal" style="transition-delay:0.24s">
+          <div class="pc-num">03</div>
+          <div class="pc-title">TalentPool Platform</div>
+          <div class="pc-desc">
+            A recruitment and talent management platform that connects employers
+            with skilled candidates. Built with a Java backend and deployed on
+            <strong>AWS</strong>, it streamlines the hiring pipeline with
+            profile management and job matching features.
+          </div>
+          <div class="pc-tags">
+            <span class="pc-tag">Java</span>
+            <span class="pc-tag">AWS</span>
+            <span class="pc-tag">HTML/CSS</span>
+            <span class="pc-tag">JavaScript</span>
+            <span class="pc-tag">MySQL</span>
+          </div>
+          <a href="https://github.com/engrshahzaman09" target="_blank" class="pc-link">
+            View on GitHub
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card reveal" style="transition-delay:0.36s">
+          <div class="pc-num">04</div>
+          <div class="pc-title">Task Management System</div>
+          <div class="pc-desc">
+            A team-oriented task management application with real-time task
+            tracking, priority assignment, and progress monitoring. Designed
+            with a clean RESTful architecture and deployed on cloud
+            infrastructure using <strong>AWS Ubuntu</strong>.
+          </div>
+          <div class="pc-tags">
+            <span class="pc-tag">Java</span>
+            <span class="pc-tag">Spring Boot</span>
+            <span class="pc-tag">AWS</span>
+            <span class="pc-tag">MySQL</span>
+            <span class="pc-tag">Bootstrap</span>
+          </div>
+          <a href="https://github.com/engrshahzaman09" target="_blank" class="pc-link">
+            View on GitHub
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Hire Banner -->
+      <div class="hire-banner reveal" style="transition-delay:0.2s">
+        <div class="hb-text">
+          <h3>💼 Need a Custom Project Built?</h3>
+          <p>I'm available for freelance work & full-time roles. Let's build something great together.</p>
+        </div>
+        <div class="hb-btns">
+          <a href="https://wa.me/923494595501" target="_blank" class="btn btn-green">WhatsApp Me</a>
+          <a href="mailto:engrshahzaman09@gmail.com" class="btn btn-outline">Send Email</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       EDUCATION
+  ════════════════════════════════════════ -->
+  <section id="education">
+    <div class="container">
+      <div class="section-label reveal">Background</div>
+      <h2 class="section-title reveal">My <em>Education</em></h2>
+
+      <div class="edu-card reveal">
+        <div class="edu-badge">🎓</div>
+        <div class="edu-body">
+          <div class="edu-degree">Bachelor of Science in Information Technology</div>
+          <div class="edu-uni">Sindh Agriculture University</div>
+          <div class="edu-year-tag">Graduated</div>
+          <div class="edu-desc">
+            Completed my BSIT with a strong focus on software engineering, backend development,
+            cloud computing, and database management. Throughout the program, I developed
+            hands-on expertise in <strong>Java</strong>, <strong>Spring Boot</strong>,
+            <strong>MySQL</strong>, <strong>AWS</strong>, and modern web development using
+            HTML, CSS, Bootstrap & JavaScript. Also worked on multiple real-world projects
+            including REST APIs and cloud-deployed applications.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       CONTACT
+  ════════════════════════════════════════ -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div class="contact-intro reveal">
+          <div class="section-label">Get In Touch</div>
+          <h2>Let's Build<br><em>Together</em></h2>
+          <p>
+            I'm actively looking for new opportunities — full-time roles,
+            freelance projects, or collaborations. Whether you have a project
+            in mind or just want to say hi, my inbox is always open.
+          </p>
+
+          <div class="contact-methods">
+            <a href="mailto:engrshahzaman09@gmail.com" class="cm-item">
+              <div class="cm-icon">📧</div>
+              <div>
+                <div class="cm-label">Email</div>
+                <div class="cm-val">engrshahzaman09@gmail.com</div>
+              </div>
+            </a>
+            <a href="https://wa.me/923494595501" target="_blank" class="cm-item">
+              <div class="cm-icon">💬</div>
+              <div>
+                <div class="cm-label">WhatsApp</div>
+                <div class="cm-val">+92 349 4595501</div>
+              </div>
+            </a>
+            <a href="https://github.com/engrshahzaman09" target="_blank" class="cm-item">
+              <div class="cm-icon">🐙</div>
+              <div>
+                <div class="cm-label">GitHub</div>
+                <div class="cm-val">github.com/engrshahzaman09</div>
+              </div>
+            </a>
+            <a href="#" class="cm-item">
+              <div class="cm-icon">📍</div>
+              <div>
+                <div class="cm-label">Location</div>
+                <div class="cm-val">Karachi, Pakistan</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- JSON Card -->
+        <div class="json-card reveal" style="transition-delay:0.15s">
+          <div class="json-topbar">
+            <div class="json-dot r"></div>
+            <div class="json-dot y"></div>
+            <div class="json-dot g"></div>
+            <div class="json-filename">developer.json</div>
+          </div>
+          <div class="json-body">
+            <div><span class="p">{</span></div>
+            <div>&nbsp;&nbsp;<span class="k">"name"</span><span class="p">:</span> <span class="s">"Shah Zaman"</span><span class="p">,</span></div>
+            <div>&nbsp;&nbsp;<span class="k">"role"</span><span class="p">:</span> <span class="s">"Java Developer"</span><span class="p">,</span></div>
+            <div>&nbsp;&nbsp;<span class="k">"degree"</span><span class="p">:</span> <span class="s">"BSIT"</span><span class="p">,</span></div>
+            <div>&nbsp;&nbsp;<span class="k">"university"</span><span class="p">:</span> <span class="s">"SAU Karachi"</span><span class="p">,</span></div>
+            <div>&nbsp;&nbsp;<span class="k">"location"</span><span class="p">:</span> <span class="s">"Karachi, PK"</span><span class="p">,</span></div>
+            <div>&nbsp;&nbsp;<span class="k">"available"</span><span class="p">:</span> <span class="b">true</span><span class="p">,</span></div>
+            <div>&nbsp;&nbsp;<span class="k">"skills"</span><span class="p">:</span> <span class="p">[</span></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="s">"Java"</span><span class="p">,</span> <span class="s">"Spring Boot"</span><span class="p">,</span></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="s">"AWS"</span><span class="p">,</span> <span class="s">"MySQL"</span><span class="p">,</span></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="s">"REST API"</span><span class="p">,</span> <span class="s">"Bootstrap"</span></div>
+            <div>&nbsp;&nbsp;<span class="p">],</span></div>
+            <div>&nbsp;&nbsp;<span class="k">"projects"</span><span class="p">:</span> <span class="n">4</span><span class="p">,</span></div>
+            <div>&nbsp;&nbsp;<span class="k">"openToWork"</span><span class="p">:</span> <span class="b">true</span></div>
+            <div><span class="p">}</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════ -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">SZ.</div>
+        <div>© 2026 Shah Zaman · Java Developer · AWS Engineer · Karachi, PK</div>
+        <div>
+          <a href="https://github.com/engrshahzaman09" target="_blank">GitHub</a>
+          &nbsp;·&nbsp;
+          <a href="mailto:engrshahzaman09@gmail.com">Email</a>
+          &nbsp;·&nbsp;
+          <a href="https://wa.me/923494595501" target="_blank">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
